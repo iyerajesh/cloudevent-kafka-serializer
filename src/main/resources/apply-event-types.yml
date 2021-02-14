@@ -1,0 +1,23 @@
+APPLICATION_SUBMITTED_EVENT:
+  type: com.xylia.platform.events.ApplicationSubmittedEvent
+  topic: application.submission.topic
+APPLICATION_CAPTURED_EVENT:
+  type: com.xylia.platform.events.ApplicationCapturedEvent
+  topic: application.decision.topic
+APPLICATION_FAILED_EVENT:
+  type: com.xylia.platform.events.ApplicationFailedEvent
+  topic: application.decision.topic
+APPLICATION_APPROVED_EVENT:
+  type: com.xylia.platform.events.ApplicationApprovedEvent
+  topic: application.decision.topic
+APPLICATION_CANCELLED_EVENT:
+  type: com.xylia.platform.events.ApplicationCancelledEvent
+  topic: application.decision.topic
+APPLICATION_DECLINED_EVENT:
+  type: com.xylia.platform.events.ApplicationDeclinedEvent
+  topic: application.decision.topic
+APPLICATION_PENDED_EVENT:
+  type: com.xylia.platform.events.ApplicationPendedEvent
+  topic: application.decision.topic
+
+
